@@ -38,7 +38,7 @@ public class Login {
         Assert.assertEquals(actualMessage,"Enter Username & password");
 
         //Print message display on screen
-        System.out.println("Message displayed on the screen for Empty fields : " + actualMessage);
+        System.out.println("Message displayed on the screen for Empty fields logingit add . is : " + actualMessage);
 
     }
 
@@ -56,7 +56,7 @@ public class Login {
         Assert.assertEquals(actualMessage,"Username or password is incorrect");
 
         //Print message display on screen
-        System.out.println("Message displayed on the screen for random username/password : " + actualMessage);
+        System.out.println("Message displayed on the screen for random username/password is : " + actualMessage);
 
     }
 
